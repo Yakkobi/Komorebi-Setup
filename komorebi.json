@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 0,
+  "default_container_padding": 0,
+  "border": true,
+  "border_width": 2,
+  "border_offset": 0,
+  "border_style": "Square",
+  "theme": {
+    "palette": "Base16",
+    "name": "TokyodarkTerminal",
+    "unfocused_border": "Base00",
+    "bar_accent": "Base0D"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "Grid"
+        },
+        {
+          "name": "4",
+          "layout": "Columns"
+        },
+        {
+          "name": "5",
+          "layout": "Rows"
+        },
+        {
+          "name": "6",
+          "layout": "HorizontalStack"
+        },
+        {
+          "name": "7",
+          "layout": "UltrawideVerticalStack"
+        }
+      ]
+    }
+  ]
+}
