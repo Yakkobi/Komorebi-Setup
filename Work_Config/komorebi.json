@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.41/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 0,
+  "default_container_padding": 0,
+  "border": true,
+  "border_width": 2,
+  "border_offset": 0,
+  "border_style": "Square",
+  "theme": {
+    "palette": "Base16",
+    "name": "TokyodarkTerminal",
+    "unfocused_border": "Base00",
+    "bar_accent": "Base0D"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "Main",
+          "layout": "RightMainVerticalStack",
+          "window_container_behaviour_rules": {
+            "3": "Append"
+          }
+        },
+        {
+          "name": "Remote",
+          "layout": "VerticalStack",
+          "window_container_behaviour_rules": {
+            "3": "Append"
+          },
+          "layout_options_rules": {
+            "1": {
+              "flip": "Vertical"
+            }
+          }
+        },
+        {
+          "name": "Overflow",
+          "layout": "BSP"
+        },
+        {
+          "name": "Study",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}
